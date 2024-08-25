@@ -6,6 +6,6 @@ import sitemap from '@astrojs/sitemap';
 // https://astro.build/config
 export default defineConfig({
 	site: 'https://jazztyy.github.io',
-	base: '/',
+	base: '/blog',
 	integrations: [mdx(), sitemap()],
 });
